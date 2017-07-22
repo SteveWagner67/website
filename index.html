@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Home page</title>
+	<title>Steve Wagner</title>
 
 	<!-- CSS -->
 	<!-- Latest compiled and minified CSS -->
@@ -30,27 +30,157 @@
 
 	<div class="wrapper">
 
-	<!-- Intro section start -->
+		<!-- Preloader -->
 
-		<section id="intro" class="section">
+		<div id="preloader">
+			<div id="status">
+				<div class="status-mes"><h4>Welcome</h4></div>
+			</div>
+		</div>
+
+		<!-- Navigation start -->
+
+		<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Steve Wagner</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#profile">Profile</a></li>
+						<li><a href="#stats">Career</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#details">Details</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+
+		<!-- Navigation end -->
+
+
+		<!-- Profile section start -->
+
+		<section id="profile" class="section">
 
 			<div class="container">
 
 				<div class="row">
 
-					<div class="col-md-12">
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2>Steve Wagner</h2>
+						<p>Software and Hardware Engineer, specialized in embedded systems</p>
+					</div>
 
-						<div class="hello wow bounceInDown">
-							<h1>Steve Wagner</h1>
+					<div class="col-md-3 col-sm-6 hidden-xs wow bounceInLeft">
+						<img class="avatar" src="assets/images/moi.png" alt="">
+						
+						<div class="profile-widget">
+							<h3>Social Profiles</h3>
+							<ul class="widget-social">
+								<li><a href="https://github.com/SteveWagner67" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+								<li><a href="https://www.linkedin.com/pub/steve-wagner/aa/b10/666" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://plus.google.com/u/0/118108532987137169830/posts/p/pub" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+						
+					</div>
+
+					<div class="col-md-3 col-sm-6 wow bounceInUp">
+
+						<div class="profile-widget">
+						
+							<h3>Business Environments</h3>
+							<h5>Industry</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+							</div>
+							<h5>Internet Of Things</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+							<h5>Automotive</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+							
+							<h3> </h3>
+							
+							<h3>Skill areas</h3>
+
+							<h5>Embedded programming</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+							</div>
+
+							<h5>Real time operating system</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+							</div>
+
+							<h5>Mobile development</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+
+							<h5>Sensors & Actuators</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+							</div>
+							
+							<h5>Cryptography</h5>
+							<div class="skill-bar">
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-on"></div>
+								<div class="skill-rate-off"></div>
+								<div class="skill-rate-off"></div>
+							</div>
 						</div>
 
-						<a href="#langage">
-							<div class="mouse-icon">
-								<div class="wheel"></div>
-							</div>
-						</a>
+					</div><!-- .col-md-3 -->
 
+					<div class="col-md-6 col-sm-12 wow bounceInRight">
+						<h3>Professional Profile</h3>
+						<p>Young Software and Hardware Engineer, I'm working since April 2016 by Altran Technologies as Junior Consultant Engineer. I did several projects by Bosch Connected Devices and Solutions in Reultingen, Germany, where I had to implement, update and improve unit and integration tests and also adapt and implement a new Software interface into several drivers. Then I continued by Electrolux Laundry Systems in Rosière-Près-Troyes in France, where I had to debug, improve and document the software of an ironer. The last project is still in progress.
+						<p>Before working by Altran Technologies, I did a tri-national study in three countries: France, Germany and Switzerland, where I got four diploms, including two Bachelors.
+						<p>Listen, understand, research and solve ethical, social and ecological issues as well with a team as alone in any scientific and technological developments with technical, organizational, human and economic factors is the motivation I have for my actual and futur projects.</p>
+						<p>	Studying as developing complex software and hardware intended for the acquisition, storage, transmission, processing and presentation of information are the skills I learnt and which I want to continously use and improve.</p>
 					</div>
+					
 
 				</div><!-- .row -->
 
@@ -58,50 +188,906 @@
 
 		</section>
 
-		<!-- Intro section end -->
+		<!-- Profile section end -->
+
 
 		<!-- Callout section start -->
-		<section id="langage" class="callout">
+		<section id="stats" class="callout">
 
 			<div class="container">
 
 				<div class="row">
 
-					<div class="col-md-4 hidden-xs wow bounceInLeft">
-						<h3>Choose the language</h3>
-						<p>Choisissez la langue</p>
-<!--						<p>Wählen Sie die Sprache</p> -->
+					<div class="col-md-3 col-sm-5 hidden-xs wow bounceInLeft">
+						<h3>My Career</h3>
 					</div>
 
-					<div class="col-md-2 wow bounceInLeft">
-						<div class="stat" role="button">
-							<img type=button onClick="location.href='english.html'" class="col-md-8" src="assets/images/english_flag.png" alt="">
+					<!--<div class="col-md-2 col-sm-5 wow bounceInLeft">
+						<div class="stat" role="button" data-toggle="collapse" data-target="#Countries">
+							<div class="stat-icon">
+								<h2><i class="fa fa-globe hidden-xs"></i><span class="timer" data-to="3"></span></h2>
+							</div>
+							<h3>Countries</h3>
+							<div id="Countries" class="collapse">
+								<img class="col-md-8" src="assets/images/france-flag.jpg" alt="">
+								<img class="col-md-8" src="assets/images/germany-flag.jpg" alt="">
+								<img class="col-md-8" src="assets/images/switzerland-flag.jpg" alt="">
+							</div>
+						</div>
+					</div> -->
+					
+					<div class="col-md-2 col-sm-5 wow bounceInLeft">
+						<div class="stat" role="button" data-toggle="collapse" data-target="#Firms">
+							<div class="stat-icon">
+								<h2><i class="fa fa-globe hidden-xs"></i><span class="timer" data-to="4"></span></h2>
+							</div>
+							<h3>Firms</h3>
+							<div id="Firms" class="collapse">
+								<h6>Electrolux Laundry Systems, Rosière-Près-Troyes, France - Altran Technologies Mission - 2017</h6>
+								<h6>Bosch Conected Devices and Solutions, Reutlingen, Germany - Altran Technologies Mission - 2016/2017</h6>
+								<h6>Institut of reliable Embedded Systems and Communications Electronics - Hochschule Offenburg - Bachelor Thesis - 2015/2016</h6>
+								<h6>Swiss Timing, Corgémont, Switzerland - Bachelor Thesis - 2014/2015</h6>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-md-2 wow bounceInUp">
-						<div class="stat" role="button">
-							<img type=button onClick="location.href='french.html'" class="col-md-8" src="assets/images/france-flag.jpg" alt="">
+					<div class="col-md-2 col-sm-5 wow bounceInUp">
+						<div class="stat" role="button" data-toggle="collapse" data-target="#Languages">
+							<div class="stat-icon">
+								<h2><i class="fa fa-flag hidden-xs"></i><span class="timer" data-to="3"></span></h2>
+							</div>
+							<h3>Languages</h3>
+							<div id="Languages" class="collapse">
+								<h6>French (native language)</h6>
+								<h6>German (fluent)</h6>
+								<h6>English (fluent)</h6>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-2 col-sm-5 wow bounceInRight">
+						<div class="stat" role="button" data-toggle="collapse" data-target="#Universities">
+							<div class="stat-icon">
+								<h2><i class="fa fa-graduation-cap hidden-xs"></i><span class="timer" data-to="3"></span></h2>
+							</div>
+							<h3>Universities</h3>
+							<div id="Universities" class="collapse">
+								<h6>HE-Arc Neuchâtel, SWITZERLAND</h6>
+								<h6>Hochschule Offenburg, GERMANY</h6>
+								<h6>IUT Haguenau, FRANCE</h6>
+							</div>
 						</div>
 					</div>
 					
-<!--					<div class="col-md-2 wow bounceInUp">
-						<div class="stat" role="button">
-							<img type=button onClick="location.href='german.html'" class="col-md-8" src="assets/images/germany-flag.jpg" alt="">
+					<div class="col-md-2 col-sm-5 wow bounceInRight">
+						<div class="stat" role="button" data-toggle="collapse" data-target="#Diploms">
+							<div class="stat-icon">
+								<h2><i class="fa fa-graduation-cap hidden-xs"></i><span class="timer" data-to="4"></span></h2>
+							</div>
+							<h3>Diploms</h3>
+							<div id="Diploms" class="collapse">
+								<h6>Bachelor of Engineering in Elektrotechnick und Informationstechnik, Hochschule Offenburg, Germany (2016) </h6>
+								<h6>Bachelor of Science HES-SO major Industrial and Embedded Computer Science, HES-SO University of Applied Sciences and Arts Western Switzerland (2015)</h6>
+								<h6>Licence professionnelle in "Systèmes Electriques et Réseaux Industriels (SERI)", Institut Universitaire et Technologique (IUT), Haguenau, FRANCE (2015)</h6>
+								<h6>Diplôme Universitaire et Technologie (DUT) in "Génie Electrique et Informatique Industrielle (GEII)",  Institut Universitaire et Technologique (IUT), Haguenau, FRANCE (2014) </h6>
+							</div>
 						</div>
 					</div>
--->
+									
 				</div><!-- .row -->
 
 			</div><!-- .container -->
 			
 		</section>
 
-		<!-- Callout section end -->
-	
+		<!-- Callout section end -->	
+
+		<!-- Resume section start -->
+
+		<section id="resume" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2>Resume</h2>
+						<p>My formation and competences.</p>
+					</div>
+
+				</div><!-- .row -->
+
+				<div class="row resume-items">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3>Formation</h3>
+					</div>
+					
+					<div class="col-md-6 col-sm-8 resume-item wow bounceInUp">
+						<h4>Junior Consultant Engineer</h4>
+						<p>Software and Hardware Developer specialized in Embedded Systems</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i>Altran Technologies, East Region, France</h4>
+						<i class="fa fa-calendar"></i> 2016
+						<hr class="visible-xs">
+					</div>
+					
+					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+						<h4>Engineer, Bachelor of Engineering</h4>
+						<p>In Elektrotechnick und Informationstechnik, I got this graduate after three years and a half of tri-national study</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i> Hochschule Offenburg, Germany</h4>
+						<i class="fa fa-calendar"></i> 2016
+						<hr class="visible-xs">
+					</div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+						<h4>Engineer, Bachelor of Science HES-SO</h4>
+						<p>In Industrial and Embedded Computer Science, I got this graduate after three years of tri-national study</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i> HES-SO University of Applied Sciences and Arts Western Switzerland</h4>
+						<i class="fa fa-calendar"></i> 2015
+						<hr class="visible-xs">
+					</div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+						<h4>Licence professionnelle</h4>
+						<p>in "Systèmes Electriques et Réseaux Industriels (SERI)", I got this graduate after three years of tri-national study</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i> Institut Universitaire et Technologique, Haguenau, FRANCE </h4>
+						<i class="fa fa-calendar"></i> 2015
+						<hr class="visible-xs">
+					</div>
+
+					<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">
+						<h4>Diplôme Universitaire et Technologie (DUT)</h4>
+						<p>Specialized in "Génie Electrique et Informatique Industrielle (GEII)", I got this graduate after two years of tri-national study</p>
+						<hr class="hidden-xs">
+					</div>
+
+					<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">
+						<h4><i class="fa fa-suitcase"></i> Institut Universitaire et Technologique, Haguenau, FRANCE</h4>
+						<i class="fa fa-calendar"></i> 2014
+						<hr class="visible-xs">
+					</div>
+					
+				</div><!-- .row -->
+
+				<div class="row resume-items">
+
+					<div class="col-md-3 wow bounceInLeft">
+						<h3>Competences</h3>
+					</div>
+
+					<div class="col-md-4 col-sm-8 resume-item wow bounceInUp">
+						<h4>Programming language</h4>
+						<p>Assembler, C, S7, Java, Android, LabView, VHDL, Latex, Python</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-5 col-sm-4 resume-place wow bounceInRight">
+						<h4>Microcontroller</h4>
+						<p>Freescale, PIC, Raspberry PI, Microchip</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-4 col-sm-8 col-md-offset-3 resume-item wow bounceInUp">
+						<h4>Programming tools</h4>
+						<p>CodeWarrior, Eclipse, MPlabX IDE, Xilinx Vivado, LabView, Quartus</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-5 col-sm-4 resume-place wow bounceInRight">
+						<h4>Electronic</h4>
+						<p>Conception of printed circuits, Analogic and Numeric electronic, Signal processing</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-4 col-sm-8 col-md-offset-3 resume-item wow bounceInUp">
+						<h4>Conception tools</h4>
+						<p>Altium Designer, Xilinx Vivado, Eagle</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-5 col-sm-4 resume-place wow bounceInRight">
+						<h4>Mathematic tools</h4>
+						<p>Mathematica, Simulink, Matlab</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-4 col-sm-8 col-md-offset-3 resume-item wow bounceInUp">
+						<h4>Network</h4>
+						<p>SSL/TLS protocol</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-5 col-sm-4 resume-place wow bounceInRight">
+						<h4>Network tool</h4>
+						<p>Wireshark</p>
+						<hr class="hidden-xs">
+					</div>					
+					
+					<div class="col-md-4 col-sm-8 col-md-offset-3 resume-item wow bounceInUp">
+						<h4>Operating system</h4>
+						<p>Real Time Operating System (RTOS) µOSII, FreeRTOS, Debian, Windows</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					<div class="col-md-5 col-sm-4 resume-place wow bounceInRight">
+						<h4>Other tools</h4>
+						<p>Jenkins Continuous Integration, Git</p>
+						<hr class="hidden-xs">
+					</div>
+					
+					
+					<div class="col-md-12 wow bounceInLeft">
+						<a href="assets/EN_CV_Steve_Wagner.pdf" target="_blank" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Download CV</a>
+					</div>
+					
+				</div><!-- .row -->
 		
-	</div> <!--wrapper-->
-	
+
+				
+			</div><!-- .container -->
+
+		</section>
+
+		<!-- Resume section end -->
+
+
+		<!-- Book section start -->
+		<section id="book" class="section">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12 wow bounceInUp">
+						<h2>Book</h2>
+						<p>My best works.</p>
+					</div>
+
+				</div><!-- .row -->
+		
+			</div><!-- .container -->
+		
+		
+		
+			<div id="carousel-example-generic" class="carousel slide col-md-12" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+				
+					<!--Project 1 -->
+					<div class="item active">
+						<div class="col-md-6 col-md-offset-3 resume-item wow bounceInUp" >
+							<div class="portfolio-item" type="button" data-toggle="modal" data-target="#myModalP1" >
+								<div class="portfolio-item-preview" role="button">	
+									<img src="assets/images/bosch_xdk.jpg" alt="">
+								</div>
+							
+								<div class="portfolio-item-description">
+									<h3>Project 1 : Altran - BCDS </h3>
+									<p>Click for more informations</p>
+								</div>
+							</div>	
+						</div>	
+					</div>
+				
+					
+					<!--Project 2 -->
+					<div class="item">
+						<div class="col-md-6 col-md-offset-3 resume-item wow bounceInUp" >
+							<div class="portfolio-item" type="button" data-toggle="modal" data-target="#myModalP2" >
+								<div class="portfolio-item-preview" role="button">	
+									<img src="assets/images/hochschule_offenburg.png" alt="">
+								</div>
+							
+								<div class="portfolio-item-description">
+									<h3>Project 2 : Bachelor Thesis - Institute Hochschule Offenburg </h3>
+									<p>Click for more informations</p>
+								</div>
+							</div>	
+						</div>	
+					</div>
+					
+					<!--Project 3 -->
+					<div class="item">
+						<div class="col-md-6 col-md-offset-3 resume-item wow bounceInUp" >
+							<div class="portfolio-item" type="button" data-toggle="modal" data-target="#myModalP3" >
+								<div class="portfolio-item-preview" role="button">	
+									<img src="assets/images/swiss_timing.png" alt="">
+								</div>
+							
+								<div class="portfolio-item-description">
+									<h3>Project 3 : Bachelor Thesis - Swiss Timing </h3>
+									<p>Click for more informations</p>
+								</div>
+							</div>	
+						</div>	
+					</div>
+			
+					<!--Project 4 -->
+					<div class="item">
+						<div class="col-md-6 col-md-offset-3 resume-item wow bounceInUp" >
+							<div class="portfolio-item" type="button" data-toggle="modal" data-target="#myModalP4" >
+								<div class="portfolio-item-preview" role="button">	
+									<img src="assets/images/projet_traceur.png" alt="">
+								</div>
+							
+								<div class="portfolio-item-description">
+									<h3>Project 4 : Tracer </h3>
+									<p>Click for more informations</p>
+								</div>
+							</div>	
+						</div>	
+					</div>
+				
+					<!--Project 5 -->
+					<div class="item">
+						<div class="col-md-6 col-md-offset-3 resume-item wow bounceInUp" >
+							<div class="portfolio-item" type="button" data-toggle="modal" data-target="#myModalP5" >
+								<div class="portfolio-item-preview" role="button">	
+									<img src="assets/images/Robot2.png" alt="">
+								</div>
+							
+								<div class="portfolio-item-description">
+									<h3>Project 5 : Autonomous Robot Car</h3>
+									<p>Click for more informations</p>
+								</div>
+							</div>	
+						</div>
+					</div>
+				
+					<!--Project 6 -->	
+					<div class="item">
+						<div class="col-md-6 col-md-offset-3 resume-item wow bounceInUp" >
+							<div class="portfolio-item" type="button" data-toggle="modal" data-target="#myModalP6" >
+								<div class="portfolio-item-preview" role="button">	
+									<img src="assets/images/Freescale_cup1.png" alt="">
+								</div>
+							
+								<div class="portfolio-item-description">
+									<h3>Project 6 : Freescale Cup</h3>
+									<p>Click for more informations</p>
+								</div>
+							</div>	
+						</div>
+					</div>
+				
+					<!--Project 7 -->
+					<div class="item">
+						<div class="col-md-6 col-md-offset-3 resume-item wow bounceInUp" >
+							<div class="portfolio-item" type="button" data-toggle="modal" data-target="#myModalP7" >
+								<div class="portfolio-item-preview" role="button">	
+									<img src="assets/images/projet_android.png" alt="">
+								</div>
+							
+								<div class="portfolio-item-description">
+									<h3>Project 7 : Led controller via Android</h3>
+									<p>Click for more informations</p>
+								</div>
+							</div>	
+						</div>
+					</div>
+
+					
+				<!-- Modal for Project 1 -->
+				<div class="modal fade" id="myModalP1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel1">Project 1: Altran - Bosch Connected Devices and Solutions</h4>
+								<img class="col-md-6" src="assets/images/bosch_xdk.jpg" alt="">
+								<img class="col-md-6" src="assets/images/ublox.png" alt="">
+							</div>
+							<div class="modal-body">
+								<BR CLEAR="all">
+								<h3>Goal</h3>
+								<p>
+								Migration of several drivers to a new Hardware Abstraction Layer (HAL) design.
+								Adapt unit and integration tests, also the specifications and the documentation of the drivers
+								</p>
+						
+								<h3>Material used</h3>
+								<p>
+								Bosch XDK prototype board with several internal sensors (Accelerometer, Gyroscope, Magnetometer, Humidity sensor, Pressure sensor, Temperature sensor, Acoustic sensor, Digital Light sensor),
+								TP-Link Router, Wifi-cc3100mod module, Ublox extension board with GSM LisaU2
+								</p>
+						
+								<h3>Programming language</h3>
+								<p>
+								C, Python
+								</p>
+						
+								<h3>Time of work</h3>
+								<p>
+								8 months (08/2016 – 03/2017)
+								</p>
+						
+								<h3>Achievement</h3>
+								<p>
+								Each driver has been correctly migrated to the new HAL design.
+								The unit tests have been implemented and were working as previously.
+								Some specifications and integration tests were deleted, because the new HAL design was managing differently, but other specifications and tests were added to keep the coherence and the security of the drivers
+								</p>
+						
+								<h3>Tools</h3>
+								<p>
+								Eclipse for the programming of the drivers,
+								PyCharm for the management of the integration tests,
+								Stash for the project management,
+								Jenkins as version control systems,
+								GTest for the unit tests,
+								Git for the management of the code 
+								</p>
+						
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Modal for Project 1 -->
+				
+				<!-- Modal for Project 2 -->
+				<div class="modal fade" id="myModalP2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel2">Project 2: Bachelor Thesis - Institut Hochschule Offenburg</h4>
+								<img class="col-md-6" src="assets/images/TLS1.PNG" alt="">
+								<img class="col-md-6" src="assets/images/TLS2.PNG" alt="">
+							</div>
+							<div class="modal-body">
+								<BR CLEAR="all">
+								<h3>Goal</h3>
+								<p>
+								Design of a cryptographic interface with the basis of the algorithms needed for any cryptographic project
+								Implementation of this new interface into an existing TLS security protocol project
+								Implementation of an open-source cryptographic algorithms into the new interface
+								Updating existing tests to make them run as before
+								</p>
+						
+								<h3>Programming language</h3>
+								<p>
+								C
+								</p>
+								
+								<h3>Technology</h3>
+								<p>
+								Cryptography, Internet security protocol TLS
+								</p>
+						
+								<h3>Time of work</h3>
+								<p>
+								6 months (09/2015 – 03/2016)
+								</p>
+						
+								<h3>Achievement</h3>
+								<p>
+								After learning the basis of Cryptography and the Internet Security Protocol TLS, the project has been split into 4 parts.
+								First one was the writing of the new interface, which has been approved by the all institute working on the TLS security protocol project. 
+								Then this interface has been implemented into the project. It replaces an old one which wasn’t optimized for the use of different cryptographic algorithms.
+								After implementing the interface, the open-source cryptographic algorithm, which was already used in the project, has been written into the interface until the tests of each part of cryptography were working as before.
+								The last part was the writing of the bachelor thesis report and the final presentation.
+								</p>
+						
+								<h3>Tools</h3>
+								<p>
+								Eclipse for the programming,
+								Wireshark as sniffer,
+								Redmine for the project management,
+								Git for the code management,
+								Latex for the Bachelor Thesis report,
+								Beamer for the Bachelor Thesis presentation 
+								</p>
+						
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Modal for Project 2 -->
+				
+				<!-- Modal for Project 3 -->
+				<div class="modal fade" id="myModalP3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel3">Project 2: Bachelor Thesis - Swiss Timing</h4>
+								<img class="col-md-6" src="assets/images/Starting_Bloc.PNG" alt="">
+								<img class="col-md-6" src="assets/images/Scheme_bloc.PNG" alt="">
+							</div>
+							<div class="modal-body">
+								<BR CLEAR="all">
+								<h3>Goal</h3>
+								<p>
+								To Develop a training system that allows connecting one or several starting blocks to a mobile or tablet app via Bluetooth.
+								The training system generates the audio output for the start commands (“on your marks”, “set”) and the start signal (“*gunshot*”).
+								The system should receive information from the starting block (force curve, reaction time) but also from the app (delay between each sound, number of sprinters) and managed by the system.
+								The project has been split into two subprojects: Mobile application on Android and IOS, managed by another student and the Embedded Hardware and Software managed by myself
+								</p>
+						
+								<h3>Programming language</h3>
+								<p>
+								C
+								</p>
+								
+								<h3>Technology</h3>
+								<p>
+								Cryptography, Internet security protocol TLS
+								</p>
+						
+								<h3>Time of work</h3>
+								<p>
+								6 months (02/2015 – 08/2015)
+								</p>
+						
+								<h3>Achievement</h3>
+								<p>
+								First the specifications had to be understood and all the components needed for the project choose according to the specifications.
+								A bloc scheme was created for more understanding with the customer.
+								Then after agreement of the customer, the electronic scheme and the PCB were realized.
+								During the creation of the board the Bluetooth and the RS485 for the Starting Bloc communication protocol were realized and tested.
+								The soldering of the SMT component was done with electronic test to avoid any short-circuit.
+								All the drivers have then been written (Bluetooth, RS485, and Audio) and the whole system realized and tested.
+								The system was working successfully
+								The Bachelor thesis report and presentation have then been written.
+								</p>
+						
+								<h3>Tools</h3>
+								<p>
+								Altium Designer for board conception,
+								Eclipse for programming,
+								Visio for the block scheme
+								</p>
+								
+								<h3>Hardware communication</h3>
+								<p>
+								I2C, I2S, UART, GPIO
+								</p>
+								
+								<h3>Gear</h3>
+								<p>
+								Oscilloscope,
+								multimeter,
+								development board Freescale Kinetis K20
+								</p>
+								
+								<h3>Technology</h3>
+								<p>
+								Bluetooth,
+								RS485,
+								Digital Audio Amplifier 
+								</p>
+						
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Modal for Project 3 -->
+			
+				<!-- Modal for Project 4 -->
+				<div class="modal fade" id="myModalP4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel4">Project 4: Tracer</h4>
+								<img class="col-md-6" src="assets/images/ublox.png" alt="">
+								<img class="col-md-6" src="assets/images/waspmote.png" alt="">
+							</div>
+							<div class="modal-body">
+								<BR CLEAR="all">
+								<h3>Goal</h3>
+								<p>To know the placement of a parcel in real time through an embedded system</p>
+						
+								<h3>Method</h3>
+								<p>
+								The user enters the arrived coordinates in a text file with his phone number, with which it will become a SMS when the parcel arrive at destination.
+								The text file is saved in a webserver. The embedded system receives his GPS coordinates every 5 minutes through a GPS module and sends it to the server.
+								The user can also check the parcel's position when he wants to. The server compares the received coordinate with the saved coordinate.
+								If the coordinates correspond, the server sends a message with the user's phone number to the embedded system.
+								The embedded system sends at this time a SMS to the user to inform him that his parcel is arrived.
+								</p>
+						
+								<h3>Team</h3>
+								<p>2 Students in Bachelor of Informatics specialized in embedded system (third year)</p>
+						
+								<h3>Programming Software</h3>
+								<p>MBED platform, Waspmote platform</p>
+						
+								<h3>Programming Language</h3>
+								<p>C, C++</p>
+						
+								<h3>Material used</h3>
+								<p>Ublox C027 and Wapsmote embedded board</p>
+						
+								<h3>Time of work</h3>
+								<p>50 hours (February 2015 – April 2015)</p>
+						
+								<h3>Final Result</h3>
+								<p>
+								Each embedded system receives its GPS coordinates and send it to the server. A SMS is sent to the user when the coordinate correspond.
+								This is done on the two boards (Ublox C027 and Waspmote).</p>
+						
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Modal for Project 4 -->
+			
+				<!-- Modal for Project 5 -->
+				<div class="modal fade" id="myModalP5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel5">Project 5: Autonomous Robot Car</h4>
+								<img class="col-md-4" src="assets/images/Robot.png" alt="">
+								<img class="col-md-8" src="assets/images/labview_RTOS.png" alt="">
+							</div>
+							<div class="modal-body">
+								<BR CLEAR="all">
+								<h3>Goal</h3>
+								<p>The robot may move in an unknown environment and avoid the obstacles.
+									The robot may be guided through a software interface.</p>
+						
+								<h3>Method</h3>
+								<p>Ultrasonic sensors are used to determine the distances on each side of the robot.
+									This one move automatically without touching any obstacle.
+									Through the software interface, the robot can be guided by a user through the software interface or move freely.
+									On the software interface each distance of each sensor, between the robot and an eventual obstacle, can be visualized.
+								</p>
+						
+								<h3>Team</h3>
+								<p>Only in Bachelor of Informatics specialized in embedded system (third year)</p>
+						
+								<h3>Programming software</h3>
+								<p>Codewarrior, LabVIEW</p>
+						
+								<h3>Programming Language</h3>
+								<p>C</p>
+						
+								<h3>Time of work</h3>
+								<p>150 hours (February 2015 - May 2015)</p>
+						
+								<h3>Final Result</h3>
+								<p>The robot move automatically and can be guided through the software interface.
+									On the software interface can the speed, the start and stop of the robot and the automatic and manual mode chosen.
+								</p>
+						
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Modal for Project 5 -->
+			
+				<!-- Modal for Project 6 -->
+				<div class="modal fade" id="myModalP6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel6">Project 6: Freescale Cup</h4>
+								<img class="col-md-6 col-md-offset-3" src="assets/images/Freescale_cup2.png" alt="">
+								<img class="col-md-12" src="assets/images/Freescale_cup_acceleration.png" alt="">
+							</div>
+							<div class="modal-body">
+								<BR CLEAR="all">
+								<h3>Goal</h3>
+								<p>The robot may move as speed as possible on a white circuit with two lines on each part without going out of it.</p>
+						
+								<h3>Method</h3>
+								<p>The robot has a camera on the top of a stand, which is on the front of the robot and allow visualizing the circuit.
+									The result of the camera is processed and depending on the result the interpretation on the engines is different (acceleration, braking, turn right or left, etc.).
+									The result of the processed image could be visualized on a software interface.
+								</p>
+						
+								<h3>Team</h3>
+								<p>Two students in Bachelor of Informatics specialized in embedded system (third year). </p>
+						
+								<h3>Programming Software</h3>
+								<p>CodeWarrior, LabVIEW</p>
+						
+								<h3>Programming language</h3>
+								<p>C</p>
+						
+								<h3>Time of work</h3>
+								<p>200 hours (September 2014 - February 2015)</p>
+						
+								<h3>Final Result</h3>
+								<p>The robot can drive without going out of the circuit.
+									The average speed is around 30-40% of the maximum speed.
+									The processed image can be visualized on a software interface with the state of the robot (acceleration, breaking, stopped) and the average speed.
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Modal for Project 6 -->
+			
+				<!-- Modal for Project 7 -->
+				<div class="modal fade" id="myModalP7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel7">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel7">Project 7: Led controller via Android</h4>
+								<img class="col-md-6" src="assets/images/screen_bluetooth_android.png" alt="">
+								<img class="col-md-6" src="assets/images/pic24F_android.png" alt="">
+							</div>
+							<div class="modal-body">
+								<BR CLEAR="all">
+								<h3>Goal</h3>
+								<p>Creation of an android application which allows the change of led's color long-distance</p>
+						
+								<h3>Method</h3>
+								<p>The color is sent through the Bluetooth communication from a phone to an embedded board (where the led are connected).
+									This board receipts the color and adapts the values to send it to the leds.
+								</p>
+						
+								<h3>Team</h3>
+								<p>Two Students in Bachelor of Informatics specialized in embedded system (third year).</p>
+						
+								<h3>Programming Software</h3>
+								<p>Eclipse (programming of the Android application)
+									MPLAB X IDE (programming of the embedded board)
+								</p>
+						
+								<h3>Programmation Language</h3>
+								<p>C (for the embedded board) and Java Android (for the Android application)</p>
+						
+								<h3>Material used</h3>
+								<p>PIC24F (embedded board)</p>
+						
+								<h3>Time of work</h3>
+								<p>200 hours
+									(September 2014 – February 2015)
+								</p>
+						
+								<h3>Final Result</h3>
+								<p> The color changes in four methods (phone rotation, movement of shake, through a slider and by entering color values of red, green and blue).
+									The values are sent from the application on a phone to the embedded board through Bluetooth communication.
+								</p>
+						
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Modal for Project 7 -->
+			
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+
+			</div>
+			
+			
+			<section class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<a href="assets/EN_Portfolio_Steve_Wagner.pdf" target="_blank" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Download Portfolio</a>
+					</div>
+				</div><!-- .row -->	
+			</section>
+		</section>
+		<!--Portfolio end -->
+
+		
+		<!-- Details section start-->
+
+		<section id="details" class="section">
+
+			<div class="container">
+
+				<div class="row">
+				
+					<div class="col-md-3 wow bounceInLeft">
+						<h2>Details</h2>
+						<p>To contact me</p>
+					</div>
+
+					<div class="col-sm-3 wow bounceInUp">
+						<div class="profile-item">
+							<i class="fa fa-envelope-o"></i>
+							<h5><a href="http://www.gmail.com" target="_blank">steve.wagner.673@gmail.com</a></h5>
+						</div>
+					</div>
+
+					<div class="col-sm-3 wow bounceInUp">
+						<div class="profile-item">
+							<i class="fa fa-phone"></i>
+							<h5>+33 (0)606952504</h5>
+						</div>
+					</div>
+
+					<div class="col-sm-3 wow bounceInRight">
+						<div class="profile-item">
+							<i class="fa fa-map-marker"></i>
+							<h5><a href="https://www.google.fr/maps/place/Strasbourg/@48.5691135,7.762094,12z/data=!4m2!3m1!1s0x4796c8495e18b2c1:0x971a483118e7241f" target="_blank"> Strasbourg Alsace FRANCE</a></h5>
+						</div>
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- .container -->
+
+		</section>
+
+		<!-- Detail section end -->
+		
+		<!-- Footer start -->
+
+		<footer id="footer">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+						<p class="copy">
+							© 2015 Steve Wagner, All Rights Reserved.
+						</p>
+					</div>
+
+				</div><!-- .row -->
+
+			</div><!-- .container -->
+
+		</footer>
+
+		<!-- Footer end -->
+		
+	</div><!-- .wrapper -->
+
 	<!-- Javascript files -->
 	
 	<!-- jQuery library -->
@@ -130,4 +1116,5 @@
 	<script src="assets/js/custom.js"></script> 
 	
 </body>
+
 </html>
